@@ -1,0 +1,16 @@
+{
+  "name": "redis-now",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "author": "Darío Javier Cravero <dario@uxtemple.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "then-redis": "^2.0.1"
+  }
+}
